@@ -208,3 +208,13 @@ __marimo__/
 
 /exam/example/*
 .DS_Store
+knime/1*
+knime/2*
+knime/3*
+knime/4*
+knime/5*
+knime/6*
+knime/7*
+knime/8*
+knime/Example*
+knime/.metadata
