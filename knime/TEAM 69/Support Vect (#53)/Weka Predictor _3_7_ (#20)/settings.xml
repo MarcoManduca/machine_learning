@@ -39,11 +39,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.weka_3.7"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.9.0.v202511130858"/>
+    <entry key="node-bundle-version" type="xstring" value="5.6.0.v202507151412"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Weka Data Mining Integration (3.7)"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.weka_3.7.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.9.0.v202511130858"/>
+    <entry key="node-feature-version" type="xstring" value="5.6.0.v202507151412"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Weka Predictor (3.7)"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -59,6 +59,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c058e017-e6a0-4f9b-800b-d3c62a5a22fe"/>
+        <entry key="file_store_id" type="xstring" value="f7dacc16-061e-4132-9b31-d7d32d45046e"/>
     </config>
 </config>

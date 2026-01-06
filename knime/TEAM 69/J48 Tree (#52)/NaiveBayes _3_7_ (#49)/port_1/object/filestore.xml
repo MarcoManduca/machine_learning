@@ -2,15 +2,15 @@
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="filestore">
     <config key="filestore_keys">
         <config key="filestore_key_0">
-            <entry key="storeUUID" type="xstring" value="8c227b27-0e40-4543-aab2-6e0e4713fe5e"/>
+            <entry key="storeUUID" type="xstring" value="7e654b6b-fce3-4368-90d9-a4516f2eed5f"/>
             <entry key="index" type="xint" value="0"/>
-            <entry key="name" type="xstring" value="1dcf77d1-7421-4bb1-aa2a-6f96241ed204"/>
+            <entry key="name" type="xstring" value="0497c518-e5d5-4f6c-b02d-9ec36ce4e26a"/>
             <entry key="iterationIndex" type="xint" value="-1"/>
         </config>
         <config key="filestore_key_1">
-            <entry key="storeUUID" type="xstring" value="8c227b27-0e40-4543-aab2-6e0e4713fe5e"/>
+            <entry key="storeUUID" type="xstring" value="7e654b6b-fce3-4368-90d9-a4516f2eed5f"/>
             <entry key="index" type="xint" value="1"/>
-            <entry key="name" type="xstring" value="39165c90-7906-4354-bd38-9ab81c0d0f57"/>
+            <entry key="name" type="xstring" value="9a09b0af-d864-4416-a40d-38fe60d42a8c"/>
             <entry key="iterationIndex" type="xint" value="-1"/>
         </config>
     </config>

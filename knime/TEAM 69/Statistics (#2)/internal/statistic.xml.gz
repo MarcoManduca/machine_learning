@@ -4,6 +4,34 @@
         <entry key="spec_name" type="xstring" value="default"/>
         <entry key="number_columns" type="xint" value="23"/>
         <config key="column_spec_0">
+            <entry key="column_name" type="xstring" value="class"/>
+            <config key="element_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="column_type">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+            </config>
+            <config key="column_domain">
+                <config key="possible_values">
+                    <entry key="array-size" type="xint" value="2"/>
+                    <config key="0">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="p"/>
+                        </config>
+                    </config>
+                    <config key="1">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="e"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+            <config key="column_properties"/>
+            <config key="meta_data"/>
+        </config>
+        <config key="column_spec_1">
             <entry key="column_name" type="xstring" value="cap-shape"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -55,7 +83,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_1">
+        <config key="column_spec_2">
             <entry key="column_name" type="xstring" value="cap-surface"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -95,7 +123,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_2">
+        <config key="column_spec_3">
             <entry key="column_name" type="xstring" value="cap-color"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -171,7 +199,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_3">
+        <config key="column_spec_4">
             <entry key="column_name" type="xstring" value="bruises"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -199,7 +227,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_4">
+        <config key="column_spec_5">
             <entry key="column_name" type="xstring" value="odor"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -269,7 +297,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_5">
+        <config key="column_spec_6">
             <entry key="column_name" type="xstring" value="gill-attachment"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -297,7 +325,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_6">
+        <config key="column_spec_7">
             <entry key="column_name" type="xstring" value="gill-spacing"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -325,7 +353,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_7">
+        <config key="column_spec_8">
             <entry key="column_name" type="xstring" value="gill-size"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -353,7 +381,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_8">
+        <config key="column_spec_9">
             <entry key="column_name" type="xstring" value="gill-color"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -441,7 +469,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_9">
+        <config key="column_spec_10">
             <entry key="column_name" type="xstring" value="stalk-shape"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -469,7 +497,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_10">
+        <config key="column_spec_11">
             <entry key="column_name" type="xstring" value="stalk-root"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -509,7 +537,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_11">
+        <config key="column_spec_12">
             <entry key="column_name" type="xstring" value="stalk-surface-above-ring"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -549,7 +577,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_12">
+        <config key="column_spec_13">
             <entry key="column_name" type="xstring" value="stalk-surface-below-ring"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -589,7 +617,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_13">
+        <config key="column_spec_14">
             <entry key="column_name" type="xstring" value="stalk-color-above-ring"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -659,7 +687,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_14">
+        <config key="column_spec_15">
             <entry key="column_name" type="xstring" value="stalk-color-below-ring"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -729,7 +757,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_15">
+        <config key="column_spec_16">
             <entry key="column_name" type="xstring" value="veil-type"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -751,7 +779,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_16">
+        <config key="column_spec_17">
             <entry key="column_name" type="xstring" value="veil-color"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -791,7 +819,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_17">
+        <config key="column_spec_18">
             <entry key="column_name" type="xstring" value="ring-number"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -825,7 +853,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_18">
+        <config key="column_spec_19">
             <entry key="column_name" type="xstring" value="ring-type"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -871,7 +899,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_19">
+        <config key="column_spec_20">
             <entry key="column_name" type="xstring" value="spore-print-color"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -941,7 +969,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_20">
+        <config key="column_spec_21">
             <entry key="column_name" type="xstring" value="population"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -993,7 +1021,7 @@
             <config key="column_properties"/>
             <config key="meta_data"/>
         </config>
-        <config key="column_spec_21">
+        <config key="column_spec_22">
             <entry key="column_name" type="xstring" value="habitat"/>
             <config key="element_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -1044,34 +1072,6 @@
                         <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                         <config key="org.knime.core.data.def.StringCell">
                             <entry key="StringCell" type="xstring" value="l"/>
-                        </config>
-                    </config>
-                </config>
-            </config>
-            <config key="column_properties"/>
-            <config key="meta_data"/>
-        </config>
-        <config key="column_spec_22">
-            <entry key="column_name" type="xstring" value="class"/>
-            <config key="element_names">
-                <entry key="array-size" type="xint" value="0"/>
-            </config>
-            <config key="column_type">
-                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-            </config>
-            <config key="column_domain">
-                <config key="possible_values">
-                    <entry key="array-size" type="xint" value="2"/>
-                    <config key="0">
-                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                        <config key="org.knime.core.data.def.StringCell">
-                            <entry key="StringCell" type="xstring" value="p"/>
-                        </config>
-                    </config>
-                    <config key="1">
-                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                        <config key="org.knime.core.data.def.StringCell">
-                            <entry key="StringCell" type="xstring" value="e"/>
                         </config>
                     </config>
                 </config>
@@ -1550,8 +1550,8 @@
         <entry key="7" type="xint" value="0"/>
         <entry key="8" type="xint" value="0"/>
         <entry key="9" type="xint" value="0"/>
-        <entry key="10" type="xint" value="2480"/>
-        <entry key="11" type="xint" value="0"/>
+        <entry key="10" type="xint" value="0"/>
+        <entry key="11" type="xint" value="2480"/>
         <entry key="12" type="xint" value="0"/>
         <entry key="13" type="xint" value="0"/>
         <entry key="14" type="xint" value="0"/>
@@ -1721,6 +1721,26 @@
         <entry key="22" type="xdouble" value="NaN"/>
     </config>
     <entry key="row_count" type="xint" value="8124"/>
+    <config key="class">
+        <config key="e">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="e"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="4208"/>
+        </config>
+        <config key="p">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="p"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="3916"/>
+        </config>
+    </config>
     <config key="cap-shape">
         <config key="x">
             <config key="key">
@@ -2814,26 +2834,6 @@
                 </config>
             </config>
             <entry key="value" type="xint" value="192"/>
-        </config>
-    </config>
-    <config key="class">
-        <config key="e">
-            <config key="key">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                <config key="org.knime.core.data.def.StringCell">
-                    <entry key="StringCell" type="xstring" value="e"/>
-                </config>
-            </config>
-            <entry key="value" type="xint" value="4208"/>
-        </config>
-        <config key="p">
-            <config key="key">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                <config key="org.knime.core.data.def.StringCell">
-                    <entry key="StringCell" type="xstring" value="p"/>
-                </config>
-            </config>
-            <entry key="value" type="xint" value="3916"/>
         </config>
     </config>
 </config>

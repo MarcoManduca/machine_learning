@@ -82,11 +82,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.9.0.v202511140634"/>
+    <entry key="node-bundle-version" type="xstring" value="5.8.1.v202511051439"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.9.0.v202511140634"/>
+    <entry key="node-feature-version" type="xstring" value="5.8.1.v202511051439"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Scorer"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -109,6 +109,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f08eae05-d60b-4784-8539-c283559a0ea3"/>
+        <entry key="file_store_id" type="xstring" value="f651d48d-998b-4c12-a751-d3318afaa653"/>
     </config>
 </config>
