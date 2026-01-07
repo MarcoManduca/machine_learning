@@ -309,13 +309,13 @@
         </config>
         <config key="connection_12">
             <entry key="sourceID" type="xint" value="49"/>
-            <entry key="destID" type="xint" value="20"/>
+            <entry key="destID" type="xint" value="18"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_13">
             <entry key="sourceID" type="xint" value="49"/>
-            <entry key="destID" type="xint" value="18"/>
+            <entry key="destID" type="xint" value="20"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
