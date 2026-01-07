@@ -9,7 +9,7 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="12"/>
+                <entry key="array-size" type="xint" value="13"/>
                 <entry key="0" type="xstring" value="class"/>
                 <entry key="1" type="xstring" value="cap-shape"/>
                 <entry key="2" type="xstring" value="cap-surface"/>
@@ -22,6 +22,7 @@
                 <entry key="9" type="xstring" value="ring-number"/>
                 <entry key="10" type="xstring" value="population"/>
                 <entry key="11" type="xstring" value="habitat"/>
+                <entry key="12" type="xstring" value="cluster"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="8"/>
@@ -63,7 +64,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
     <entry key="node-name" type="xstring" value="Column Filter"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>

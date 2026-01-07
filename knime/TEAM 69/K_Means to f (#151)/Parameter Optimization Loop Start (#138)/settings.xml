@@ -26,7 +26,7 @@
         <config key="parameter_0">
             <entry key="name" type="xstring" value="k"/>
             <entry key="from" type="xdouble" value="2.0"/>
-            <entry key="to" type="xdouble" value="30.0"/>
+            <entry key="to" type="xdouble" value="50.0"/>
             <entry key="step" type="xdouble" value="1.0"/>
             <entry key="integer" type="xboolean" value="true"/>
         </config>

@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="n_clusters"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="12"/>
+            <entry key="value" type="xint" value="20"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -14,7 +14,7 @@
     </config>
     <config key="model">
         <config key="defaultValue">
-            <entry key="integer" type="xint" value="12"/>
+            <entry key="integer" type="xint" value="20"/>
         </config>
         <entry key="label" type="xstring" value="n_cluster"/>
         <entry key="description" type="xstring" value="Number of Clusters"/>
