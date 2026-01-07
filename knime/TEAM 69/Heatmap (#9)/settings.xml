@@ -29,7 +29,7 @@
         <entry key="customXAxisLabelV2_is_present" type="xboolean" value="false"/>
         <entry key="customYAxisLabelV2" type="xstring" isnull="true" value=""/>
         <entry key="customYAxisLabelV2_is_present" type="xboolean" value="false"/>
-        <entry key="showValueLabels" type="xboolean" value="false"/>
+        <entry key="showValueLabels" type="xboolean" value="true"/>
         <entry key="showColormap" type="xboolean" value="false"/>
         <entry key="colorMapLabel" type="xstring" value=""/>
         <entry key="allowImageDownload" type="xboolean" value="true"/>

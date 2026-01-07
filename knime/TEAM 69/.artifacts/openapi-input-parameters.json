@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "n_clusters-153": {
+            "type": "integer",
+            "default": 12,
+            "description": "Number of Clusters",
+            "example": 12
+        }
+    }
+}
