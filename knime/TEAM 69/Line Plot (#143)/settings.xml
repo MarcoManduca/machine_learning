@@ -41,7 +41,7 @@
             </config>
         </config>
         <entry key="maxRows" type="xint" value="2500"/>
-        <entry key="title" type="xstring" value="Line Plot"/>
+        <entry key="title" type="xstring" value="Entropy vs K-groups"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="xAxisManualMin" type="xdouble" value="0.0"/>
@@ -51,14 +51,14 @@
         </config>
         <entry key="customXAxisLabelV2" type="xstring" isnull="true" value=""/>
         <entry key="customXAxisLabelV2_is_present" type="xboolean" value="false"/>
-        <entry key="customYAxisLabelV2" type="xstring" value=""/>
+        <entry key="customYAxisLabelV2" type="xstring" value="Entropy (avg)"/>
         <entry key="customYAxisLabelV2_is_present" type="xboolean" value="true"/>
         <entry key="yAxisScale" type="xstring" value="VALUE"/>
         <entry key="lineSize" type="xint" value="2"/>
         <entry key="showDataPointMarkers" type="xboolean" value="false"/>
         <entry key="dataPointMarkerSize" type="xint" value="5"/>
         <entry key="timeFormat" type="xstring" value=""/>
-        <entry key="showLegend" type="xboolean" value="true"/>
+        <entry key="showLegend" type="xboolean" value="false"/>
         <entry key="allowImageDownload" type="xboolean" value="true"/>
         <entry key="enableDataZoom" type="xboolean" value="true"/>
         <entry key="showTooltip" type="xboolean" value="true"/>

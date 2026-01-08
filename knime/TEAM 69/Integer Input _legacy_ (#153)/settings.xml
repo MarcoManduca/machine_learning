@@ -4,7 +4,7 @@
     <config key="flow_stack">
         <config key="Variable_0">
             <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="n_clusters"/>
+            <entry key="name" type="xstring" value="k"/>
             <entry key="class" type="xstring" value="INTEGER"/>
             <entry key="value" type="xint" value="20"/>
         </config>
@@ -21,9 +21,9 @@
         <entry key="hideInWizard" type="xboolean" value="false"/>
         <entry key="hideInDialog" type="xboolean" value="false"/>
         <entry key="required" type="xboolean" value="true"/>
-        <entry key="parameterName" type="xstring" value="n_clusters"/>
+        <entry key="parameterName" type="xstring" value="k"/>
         <entry key="customCSS" type="xstring" value=""/>
-        <entry key="flowvariablename" type="xstring" value="n_clusters"/>
+        <entry key="flowvariablename" type="xstring" value="k"/>
         <entry key="use_min" type="xboolean" value="false"/>
         <entry key="use_max" type="xboolean" value="false"/>
         <entry key="min" type="xint" value="0"/>

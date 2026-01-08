@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="script" type="xstring" value="# load and prepare data%%00010R&lt;-knime.in%%00010%%00010require(class)%%00010require(cluster)%%00010require(clv)%%00010%%00010ccdata.data &lt;- R%%00010%%00010n_attributes &lt;- 110%%00010%%00010# cluster data%%00010# create &quot;n_clusters&quot; clusters%%00010hc.mod &lt;- hclust(dist(ccdata.data[2:n_attributes]), &quot;average&quot;)%%00009# sin, ave, com, ward.D2%%00010cluster &lt;- as.factor(cutree(hc.mod, k = knime.flow.in[[&quot;n_clusters&quot;]]))%%00009%%00009# create &quot;N_clusters&quot; clusters%%00010knime.out &lt;- data.frame(cbind(ccdata.data, cluster))"/>
+        <entry key="script" type="xstring" value="# import packages%%00010require(class)%%00010require(cluster)%%00010require(clv)%%00010%%00010# import data from knime workspace%%00010data&lt;-knime.in%%00010%%00010# define the number of attributes to consider (excluded class variable)%%00010n_attributes &lt;- 110%%00010hc &lt;- hclust(dist(data[2:n_attributes]), &quot;average&quot;)%%00009%%00009# hirarchical clustering with complete linkage%%00010cluster &lt;- as.factor(cutree(hc, k = knime.flow.in[[&quot;k&quot;]]))%%00009# create k clusters%%00010knime.out &lt;- data.frame(cbind(data, cluster))%%00009%%00009%%00009# create a dataframe with the input data attached with the cluster"/>
         <entry key="templateUUID" type="xstring" isnull="true" value=""/>
         <entry key="version" type="xstring" value="version 1.x"/>
         <entry key="Output non numbers (NaN, Inf, -Inf) as missing cells" type="xboolean" value="false"/>

@@ -1,7 +1,7 @@
 {
     "type": "object",
     "properties": {
-        "n_clusters-153": {
+        "k-153": {
             "type": "integer",
             "default": 20,
             "description": "Number of Clusters",
