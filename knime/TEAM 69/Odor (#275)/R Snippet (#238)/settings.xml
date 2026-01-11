@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="script" type="xstring" value="# import packages%%00010require(class)%%00010require(cluster)%%00010require(clv)%%00010%%00010# import data from knime workspace%%00010data &lt;- knime.in%%00010%%00010# --- CONFIGURAZIONE ---%%00010# Assumo che la classe vera sia nella prima colonna (come nel tuo setup precedente)%%00010v_real &lt;- data[,1]%%00010%%00010# define the number of attributes to consider (excluded class variable)%%00010n_attributes &lt;- 110%%00010%%00010# Recupero k dal loop%%00010k_value &lt;- knime.flow.in[[&quot;loop_value&quot;]]%%00010%%00010# --- CLUSTERING ---%%00010# hierarchical clustering with average linkage%%00010# Nota: Se il dataset è pesante, calcolare dist() e hclust() dentro il loop è lento.%%00010# Sarebbe meglio farlo fuori, ma per ora manteniamo la struttura che hai chiesto.%%00010hc &lt;- hclust(dist(data[2:n_attributes]), &quot;average&quot;)%%00009%%00009%%00010%%00010# create k clusters%%00010cluster_ids &lt;- cutree(hc, k = k_value)%%00009%%00010%%00010# --- CALCOLO PUREZZA PONDERATA ---%%00010%%00010# 1. Matrice di confusione (Cluster vs Classi Reali)%%00010crosstab &lt;- table(cluster_ids, v_real)%%00010%%00010# 2. Calcolo Purity Ponderata%%00010# Per ogni cluster (riga), troviamo quanti elementi appartengono alla classe maggioritaria%%00010max_per_cluster &lt;- apply(crosstab, 1, max)%%00010%%00010# Sommiamo tutti questi &quot;successi&quot; (elementi correttamente raggruppati nella loro maggioranza)%%00010total_correctly_grouped &lt;- sum(max_per_cluster)%%00010%%00010# Dividiamo per il numero totale di righe del dataset%%00010weighted_purity &lt;- total_correctly_grouped / nrow(data)%%00010%%00010# --- OUTPUT ---%%00010knime.out &lt;- data.frame(%%00010  k_loop = k_value,%%00010  weighted_purity = weighted_purity%%00010)"/>
+        <entry key="templateUUID" type="xstring" isnull="true" value=""/>
+        <entry key="version" type="xstring" value="version 1.x"/>
+        <entry key="Output non numbers (NaN, Inf, -Inf) as missing cells" type="xboolean" value="false"/>
+        <entry key="sendRowNames" type="xboolean" value="true"/>
+        <entry key="sendBatchSize" type="xint" value="10000"/>
+        <entry key="knimeInType" type="xstring" value="data.frame"/>
+        <entry key="overwriteRHome" type="xboolean" value="false"/>
+        <entry key="rHome" type="xstring" value=""/>
+        <entry key="useRPathHome" type="xboolean" value="true"/>
+        <entry key="condaVariableName" type="xstring" isnull="true" value=""/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="clustering"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.r.RSnippetNodeFactory"/>
+    <entry key="node-name" type="xstring" value="R Snippet"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME R-Project nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.r"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.6.0.v202507151411"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Interactive R Statistics Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.r.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.6.0.v202507151411"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="R Snippet"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
