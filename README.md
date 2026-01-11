@@ -13,7 +13,11 @@ This repository contains a project developed for the "Machine Learning" exam. Th
 Primary Knime project: [TEAM69](knime/TEAM%2069/)   
 Project description: [Project Ideas](exam/project_ideas.ipynb)  
 Datasets directory: [Data](exam/data/)
-Presentation: [TEAM 69.pdf](exam/TEAM%2069.pdf)
+
+## Project Presentation and Knime Workflow
+
+- Presentation: [TEAM 69.pdf](exam/TEAM%2069.pdf)
+- Knime Workflow: [TEAM 69.knwf](exam/TEAM%2069.knwf)
 
 ## License
 See [LICENSE](LICENSE) for license information.
