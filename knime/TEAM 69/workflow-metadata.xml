@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
-    <last-modified>2026-01-08T20:50:54.159+01:00</last-modified>
+    <last-modified>2026-01-11T20:41:32.787+01:00</last-modified>
     <description><![CDATA[<p><strong><em>Mushrooms Classification</em></strong></p><p>TEAM 69:</p><ul><li><p>Caglio Simone (707898)</p></li><li><p>Maggioni Pietro (866121)</p></li><li><p>Manduca Marco (804413)</p></li></ul><p></p>]]></description>
     <tags>
         <tag>mushrooms</tag>
@@ -11,7 +11,7 @@
     <links>
         <link href="https://www.kaggle.com/datasets/uciml/mushroom-classification/data">Mushrooms classification (Kaggle)</link>
         <link href="https://archive.ics.uci.edu/dataset/73/mushroom">UCI ML</link>
-        <link href="https://www.openml.org/search?type=data&amp;sort=runs&amp;id=24&amp;status=active">OpenML</link>
         <link href="https://www.mecs-press.org/ijigsp/ijigsp-v11-n4/IJIGSP-V11-N4-5.pdf">Edibility Detection of Mushroom Using Ensemble Methods (Other Work)</link>
+        <link href="https://github.com/MarcoManduca/machine_learning">GitHub Report with Knime Workflow</link>
     </links>
 </workflow-metadata>
